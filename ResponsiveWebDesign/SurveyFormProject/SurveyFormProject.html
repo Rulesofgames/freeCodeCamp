@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Survey form</title> 
+ <link rel="stylesheet" href="SurveyFormStyles.css">
+</head>
+<body>
+    <h1 id="title">Sun Cuisines Dinning Survey Form</h1>
+    <p id="description">Thank you for dining with us at Sun Cuisines.To help us maintain a high quality of service, please provide us with feedback by filling in the information below </p>
+ 
+ <form action="" id="survey-form">
+   <fieldset>
+        <label id="name-label">Name <input type="text" required placeholder="Enter your name" id="name"></label>
+
+        <label id="email-label">Email <input type="email" required placeholder="Enter your Email" id="email"></label>
+        
+        <label id="number-label">Age<input type="number" id="number" placeholder="Enter your age"required min=13 max=100 />       </label>
+    </fieldset>
+
+   <fieldset> 
+	     <label>
+	        How likely is that you recommend Sun Cuisines restaurant to a friend?
+	          <label class="radio_css">  <input type="radio" name="recommendation" value="1"> Definitely 
+	          </label>
+	          <label class="radio_css">
+	            <input type="radio" name="recommendation"value="2"> Not Sure
+	          </label>
+	          <label class="radio_css">  
+	        <input type="radio" name="recommendation" value="3"> May Be
+	        </label>
+	      </label>  
+    </fieldset>
+    
+    <fieldset>  
+	      <label>What was the most favourite part of your dinning experince?  
+	        <select id="dropdown">
+	            <option value="0">Select an Option</option>
+	            <option value="1">Quality of food</option>
+	            <option value="2">Portion Size</option>
+	            <option value="3">Service</option>
+	            <option value="4">Cleanliness</option>
+	            <option value="5">Overall Value</option>
+	        </select>  
+	      </label>
+      </fieldset>
+      
+      <fieldset>
+	      <label>
+	         What would you like to see improved? (Check all that apply)
+	
+	         <label class="checkbox_css"><input type="checkbox" value="1">Staff</label>
+	         <label class="checkbox_css"><input type="checkbox" value="2">Quality of Food</label>
+	         <label class="checkbox_css"><input type="checkbox" value="3">Ambience</label>
+	         <label class="checkbox_css"><input type="checkbox" value="4">Pricing</label>
+	         <label class="checkbox_css"><input type="checkbox" value="5">Ease of Ordering</label>
+	         <label class="checkbox_css"><input type="checkbox" value="6">Menu options</label>
+	      </label>
+	      <label>Any Comments or Suggestions?<textarea rows="8" cols=40 placeholder="Enter your comments/suggestions here..."></textarea>
+    </fieldset>  
+    <input type="submit" value="Submit" id="submit">
+  </form> 
+</body>
+ 
+ </html> 
