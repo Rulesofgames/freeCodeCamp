@@ -1,0 +1,239 @@
+@charset "ISO-8859-1";
+
+
+
+   *{
+	  scroll-behavior:smooth;
+	}
+	
+    p{
+	    font-family:Roboto,Arial;
+	    font-size:15px;
+     }
+
+	  .header{
+	     display:flex;
+	     position:fixed;
+	     justify-content:space-around;
+	     align-items:center;
+	     height:40px;   
+	     background-color:black;
+	     left:0;
+	     right:0;
+	     top:0;
+	     margin:0;  
+	  }
+	  
+	  hr{
+	    border-style:dotted;
+	    border-color:gray;
+	    margin-top:5px;
+	    margin-bottom:-16px;
+	  }
+	  
+	  .tribute_person{
+	    width:400px;
+	    color: #E8E8E8;
+	    letter-spacing:3px;
+	    font-size:1.2em;
+	  }
+	  
+	  .nav_bar{
+	   flex:1;
+	  }
+  
+	  .nav_links{
+	     list-style:none; 
+	  }
+	  
+	  li,a{
+	      text-decoration:none;
+	      color: #E8E8E8;
+	      font-size:17px;
+	  }
+  
+	  .nav_links li{
+	    display:inline-block;
+	    margin-left:10px;
+	    margin-right:10px;
+	  }
+  
+	  .nav_links li a{
+	       transition:color 0.5s;
+	  }
+	  
+	  .nav_links li a:hover{
+	     color:gray;
+	  }
+    
+  .h1_css{
+
+     font-size:50px;
+     color:black;
+     text-align:center;
+     margin-top:35px;
+     margin-bottom:-10px;
+     
+  }
+  
+  .google_logo{
+     height:45px;
+     width:150px;
+     vertical-align:middle;
+     margin-top:-5px;
+  }
+  
+  .h5_css{
+   font-size:18px;
+   text-align:center;
+  }
+  
+  .h2_css{
+	    margin-top:33px;
+	    margin-bottom:20px;
+	    font-size:27px;
+	    color:black;
+	    font-weight:800;
+  }
+  
+  #img-div{
+   text-align:center;
+     
+  }
+  #image{
+   margin:auto;
+   display:block;
+   max-width:100%;
+   height:auto;
+  
+  }
+  #img-caption{
+    font-style:italic;
+    font-weight:bold;
+  }
+  
+
+  .education_container ul li{
+     color:black;
+     text-align:left;
+     margin-left:-10px;
+  }
+  .defining_moments_table{
+    min-width:1200px;
+    border-collapse: collapse;
+    border: 1px solid rgb(105,105,105);
+    border-radius:5px 5px 0 0;
+    overflow:hidden;
+    box-shadow:0 0 20px rgba(0,0,0,0.25);
+    margin-bottom:0;
+    font-family:Roboto,Arial;
+    font-size:1em;
+  }
+  
+  .defining_moments_table thead tr th{
+     background-color:rgb(105,105,105);
+     color:white;
+     font-size:25px;
+     text-align:left;
+     padding:8px 8px;
+  }
+  
+  .defining_moments_table tbody tr:last-of-type{
+    border-bottom:3px solid rgb(105,105,105);
+  }
+  
+   .defining_moments_table tbody tr{
+     transition: background-color 0.5s;
+     cursor:pointer;
+  }
+  
+  .defining_moments_table tbody tr:hover{
+     background-color:rgb(245,245,245);
+  }
+  
+  .defining_moments_table tbody tr:nth-of-type(even){
+      background-color:	rgb(224,224,224);
+  }
+  
+  .defining_moments_table tbody tr td{
+     
+     text-align:left;
+      padding:8px 0;
+     
+  }
+  
+  .table_data_highlights{
+     color:green;
+     font-weight:bold;
+  }
+  
+  
+ 
+  .image_gallery_cssgrid{
+    display:grid;
+    grid-template-columns:400px 400px 400px;
+    column-gap:25px;
+    row-gap:25px;
+  }
+  
+  .image_css{
+     width:100%;
+     height:100%;
+  }
+
+.footer_css{
+   display:flex;
+   margin-top:26px;
+   background-color:black;
+   color: #E8E8E8;
+}
+
+.footer_1{
+   flex:1;
+   padding:10px 40px;
+   font-size:18px;
+   
+}
+.footer_2{
+   flex:1;
+  padding:10px 40px;
+   font-size:18px;
+   text-align: right;
+}
+
+.fa {
+  padding: 8px;
+  font-size: 35px;
+  width: 34px;
+  text-align: center;
+  text-decoration: none;
+  border-radius:10px;
+  transition: opacity 0.55s;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa:active{
+  opacity: 0.5;
+  box-shadow:3px 3px;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%); 
+  color: white;
+}
+.more_liks_container h2 a{
+   padding-left:10px;
+}
+
+#tribute-info,#EarlyLife_container_id,#Education_container_main_id,#defining_moments_container_id,#Image_container_id,#more_liks_container_id{
+   text-align:left;
+    margin-left:40px;
+    padding-top:6px;
+    padding-bottom:3px;
+}
+
